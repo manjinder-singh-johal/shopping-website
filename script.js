@@ -8,14 +8,17 @@ const buyItem = (price) => {
     basketItems++;
     total += price;
 
-    totalElement.innerText = total;
-    basketItemsElement.innerText = basketItems;
+    updateHTML();
 }
 
 const clearBasket = () => {
     basketItems = 0;
     total = 0;
 
+    updateHTML();
+}
+
+const updateHTML = () => {
     totalElement.innerText = total;
     basketItemsElement.innerText = basketItems;
 }

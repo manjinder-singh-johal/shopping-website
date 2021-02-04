@@ -4,24 +4,40 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body {
-    background-color: cornflowerblue;
-}
-
 .container {
     font-size: 20px;
 }
 
 .main-bar {
-    background-color: red;
+    background-color: lightsalmon;
     text-align: right;
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 .main-bar div {
     padding: 10px;
+    font-size: 30px;
+    color: white;
 }
 
 .products {
-    background-color: green;
+    background-color: lightgray;
+    padding: 10px;
+    height: 75vh;
+}
+
+.products button {
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    color: lightsalmon;
+    border: 1px solid lightsalmon;
+    cursor: pointer;
+    box-shadow: lightsalmon 2px 2px;
+}
+
+.products button:hover {
+    background-color: lightsalmon;
+    color: white;
 }
