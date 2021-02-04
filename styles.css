@@ -4,17 +4,24 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.container {
+body {
     background-color: cornflowerblue;
+}
+
+.container {
     font-size: 20px;
-    margin: 20px;
 }
 
 .main-bar {
+    background-color: red;
     text-align: right;
     padding: 10px 10px;
 }
 
 .main-bar div {
     padding: 10px;
+}
+
+.products {
+    background-color: green;
 }

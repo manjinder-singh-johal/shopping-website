@@ -9,21 +9,16 @@
   <body>
     <div class="container">
       <div class="main-bar">
-        <div>Total: Rs. <span>0.00</span></div>
+        <div>Total: Rs. <span id="total">0.00</span></div>
         <div>Basket: <span id="basket-items">0</span> items</div>
       </div>
-      <!-- <div class="products">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjwB1Cv7iKRD2eOkg9yBtSRm5iMmeSTgOKAA&usqp=CAU"
-          height="200px"
-          width="200px"
-        />
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjwB1Cv7iKRD2eOkg9yBtSRm5iMmeSTgOKAA&usqp=CAU"
-          height="200px"
-          width="200px"
-        /> -->
-      <!-- </div> -->
+      <div class="products">
+        <button onclick="buyItemOne()">Buy Item One</button>
+        <button onclick="buyItemTwo()">Buy Item Two</button>
+      </div>
+      <div class="actions">
+        <button onclick="clearBasket()">Clear Basket</button>
+      </div>
     </div>
   </body>
   <script src="script.js"></script>
