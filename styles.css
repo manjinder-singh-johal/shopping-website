@@ -20,7 +20,7 @@
     color: white;
 }
 
-.products {
+.product-list {
     background-color: lightgray;
     padding: 10px;
     height: 75vh;
@@ -40,4 +40,11 @@
 .products button:hover {
     background-color: lightsalmon;
     color: white;
+}
+
+.product {
+    background-color: lightsalmon;
+    height: 300px;
+    width: 300px;
+    
 }
