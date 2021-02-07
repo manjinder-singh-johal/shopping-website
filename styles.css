@@ -23,7 +23,7 @@
 .product-list {
     background-color: lightgray;
     padding: 10px;
-    height: 75vh;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -67,7 +67,7 @@
     margin-top: 10px;
 }
 
-.buy-button {
+.buy-button, .clear-basket, .checkout-button {
     width: 100px;
     height: 50px;
     float: right;
@@ -75,6 +75,17 @@
     font-size: 1.5em;
     border: none;
     border-radius: 10px;
-    color: lightgray;
+    color: lightsalmon;
     background-color: black;
+}
+
+.clear-basket, .checkout-button {
+    width: 200px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightsalmon;
 }
